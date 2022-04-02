@@ -29,7 +29,7 @@
                         <p:column headerText="Cantidad Stock" filterBy="#{prosa.cantidadStock}" filterMatchMode="contains">
                             <h:outputText value="#{prosa.cantidadStock}"/>
                         </p:column>
-                        <p:column width="100px" headerText="Fecha ingreso" filterBy="#{prosa.fechaIngreso}" filterOptions="true" filterMatchMode="contains">
+                        <p:column width="100px" headerText="Fecha ingreso" filterBy="#{prosa.fechaIngreso}" filterMatchMode="contains">
                             <h:outputText value="#{prosa.fechaIngreso}"><f:convertDateTime pattern="dd/MM/yyyy"></f:convertDateTime></h:outputText>
                         </p:column>
                         <p:column headerText="Lote" filterBy="#{prosa.lote}" filterMatchMode="contains">

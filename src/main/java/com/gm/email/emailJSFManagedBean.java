@@ -34,12 +34,12 @@ public class emailJSFManagedBean {
     public emailJSFManagedBean() {
         
         this.to = null;
-        this.from = null;
+        this.from = "jarodriguez2407@misena.edu.co";
         this.subject = null;
         this.descr = null;
-        this.username = null;
+        this.username = "jarodriguez2407@misena.edu.co";
         this.password = null;
-        this.smtp = null;
+        this.smtp = "smtp.gmail.com";
         this.port = 587;//25 Puerto 587 para que habilite el correo Gmail
         this.descr = "Escriba algo...";
     }
